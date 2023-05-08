@@ -10,7 +10,7 @@ export default function Home() {
             <span>This is the discription</span>
         </TopicBox>
         <TopicBox foods='rice'>
-            <p style={{color: "green"}}>This is a child under the topicbox component</p>
+            <p style={{width: 80%}}>This is a child under the topicbox component</p>
         </TopicBox>
         <TopicBox foods='hoppers'/>
         <Content/>
