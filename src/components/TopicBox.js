@@ -7,9 +7,9 @@ export default function TopicBox(props) {
     return (
     <div>
         <div className="TopicBox">
-            <span className='text'>{topic}{props.foods}</span>
+            <span className='text'>{topic}{props.flavor}{props.foods}</span>
             <br />
-            {this.prop.children}
+            {props.children}
         </div>
     </div>
   )
